@@ -11,7 +11,7 @@ module.exports = {
       
       User.create({
         name: "Anton",
-        email: "azr@azr.es",                        // Se puede parsear agregando el + o usando la funcion Number.parseInt();
+        email: "azr@azr.es",                        
         password: bcrypt.hashSync("123456", +authConfig.rounds),
         posts: [ 
           {
@@ -29,7 +29,7 @@ module.exports = {
 
       User.create({
         name: "Lucia",
-        email: "lucia@gmail.com",                  // Se puede parsear agregando el + o usando la funcion Number.parseInt();
+        email: "lucia@gmail.com",                  
         password: bcrypt.hashSync("123456", +authConfig.rounds),
         posts: [
           {

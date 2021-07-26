@@ -11,7 +11,7 @@ module.exports = {
       ], {}),
 
       queryInterface.bulkInsert('user_role', [
-        // DEJAR user_id todos en 1 , los puse en 3 porque en mi db esta asi
+        
         {user_id: 1 , role_id: 1, createdAt: new Date(), updatedAt: new Date()},
         {user_id: 1 , role_id: 2, createdAt: new Date(), updatedAt: new Date()},
         {user_id: 2 , role_id: 2, createdAt: new Date(), updatedAt: new Date()}
